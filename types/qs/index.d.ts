@@ -41,6 +41,7 @@ declare namespace QueryString {
         parameterLimit?: number;
         strictNullHandling?: boolean;
         ignoreQueryPrefix?: boolean;
+        comma?: boolean;
     }
 
     function stringify(obj: any, options?: IStringifyOptions): string;
